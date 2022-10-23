@@ -1,0 +1,364 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+
+
+
+/* это css от домашки номер 6 инлайн блок */
+
+.inline-block{
+   background-color: blue;
+   color:beige;
+
+}
+
+
+.in_b{
+	display: inline-block;
+}
+
+
+.class0width66{
+	width: 790px;
+}
+
+.class0width33{
+	width: 390px;
+}
+
+.class0width50 {
+	width: 49%;
+}
+
+/* это css от домашки flex */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}body { 
+  background-color: white;
+
+}
+.wrapper div{ 
+	border: 1px black solid;
+	font-size: 14px;
+    width: 100%;
+}
+.wrapper{
+   margin: 0 auto;
+   text-align:justify;
+   padding: 40px 0;
+   background-color: aqua;
+   width: 1200px
+}
+
+.flex{
+	display:flex;
+}
+
+.width400{
+	max-width:400px;
+	width: 100%;
+	box-sizing: border-box;
+
+}
+.width800{
+	max-width:800px;
+	box-sizing: border-box;
+}
+
+
+
+/* это css от домашки table-cell */
+ 
+ 
+ .in_t{
+     display: table-cell;
+ }
+ 
+ 
+ .class_width66{
+     width: 666px;
+ }
+ 
+ .class_width33{
+     width: 333px;
+ }
+
+
+ /* это css от домашки home page - его нет */
+
+
+ /* это css от домашки float mthfck float */
+ 
+.t_cell{
+    padding:20px 0;
+    background-color: blue;
+}
+
+ .midleft{
+     float:left;
+     width: 322px;
+ }
+ 
+ .midright{
+     float:right;
+     width: 322px;
+ }
+
+/* это css от gallery домашка 9 */
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}body { 
+  background-color: white;
+
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    width: 200px;
+
+}
+
+.absolute{
+    position: absolute;
+    background-color: bisque;
+    width: 100%;
+    top: 50%;
+
+}
+
+.menu{
+    background-color: greenyellow;
+    left: 0;
+    position: fixed;
+    font-size: larger;
+    color:black;
+    height: 200px;
+    width: 200px;
+    top:50%;
+    margin-top: -100px; 
+    z-index: 1;
+
+}
+
+.menu>ul{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row{
+    display:flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+.picture{
+    z-index: 0;
+    position:relative;
+}
+
+.rectangle{
+    position:absolute;
+    background-color: rgba(173, 255, 47, 0.20);
+    width: 100%;
+    height: 30px;
+    text-align:center;
+    top: 50%;
+    margin-top: -10px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.icon{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 0.2 black;
+
+}
+
+.insta{
+    background: url('css_sprites.png') -10px -10px;
+}
+
+.youtube{
+    background: url('css_sprites.png') -230px -230px;
+}
+
+
+.livejournal{
+    background: url('css_sprites.png') -230px -10px;
+}
+
+.twitter{
+    background: url('css_sprites.png') -10px -230px;;
+}
+
+
+.navigation{
+    display:flex;
+    list-style: none;
+    background:palegoldenrod;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navigation-cell{
+    border: solid 2px black;
+    border-radius: 15px;
+    background-color: azure;
+    padding: 10px;
+    position: relative;
+}
+
+.navigation-cell a {
+    color: black;
+    text-decoration: none;
+}
+
+.drop-down-list{
+    position:absolute;
+    border: solid 2px black;
+    border-radius: 15px;
+    background-color: azure;
+    padding: 10px;
+    top: 30px;
+    left: 5px;
+    display: none;
+    width: 200px;
+}
+
+.navigation-cell:hover .drop-down-list {
+    display: block;
+}
+
+.navigation li:hover {
+    background-color: aquamarine;
+}
+
+.relative{
+    position: relative;
+}
+
+.appear-right-list{
+    position:absolute;
+    border: solid 2px black;
+    border-radius: 15px;
+    background-color: azure;
+    padding: 10px;
+    top: 2px;
+    left: 60%;
+    display: none;
+    width: 200px;
+}
+
+.relative:hover .appear-right-list {
+    display: block;
+}
+
+
+.appear-left-list{
+    position:absolute;
+    border: solid 2px black;
+    border-radius: 15px;
+    background-color: azure;
+    padding: 10px;
+    bottom: 0px;
+    right: 100%;
+    display: none;
+    width: 200px;
+}
+
+
+.grid:hover .appear-left-list{
+    display:block;
+}
